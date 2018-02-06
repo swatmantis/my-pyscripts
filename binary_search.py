@@ -18,11 +18,7 @@ def find_By_BinarySearch(num,search_List):
     'Searching num in search_List using Binary Search algorithm'
     foundNum = "False"
 
-    if len(search_List)%2 == 0:
-        mid = int(len(search_List)/2)
-    else:
-         mid = int((len(search_List)-1)/2)
-#    print ("mid = {0}; search_List = {1}".format(mid,search_List))
+    mid = int(len(search_List)/2)
     
     'Starting the search'
     while len(search_List) >= 1:
